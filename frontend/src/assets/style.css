@@ -1,0 +1,32 @@
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+html{
+  /* color-scheme: dark light; */
+  overflow-x: hidden;
+  /* background: var(--secondary); */
+
+}
+body{
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+}
+img, picture, svg, video{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}

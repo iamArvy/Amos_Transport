@@ -1,0 +1,75 @@
+{
+    "events":{
+        "title": "news/events",
+        "main":{
+            "img":"/images/events/Imo-State.png",
+            "head": "Tour Around Imo state with us in June.",
+            "sub": "Tickets will be available from 1st of June and closes on the 15th, tickets are limited."
+        },
+        "sub":[
+            {
+                "img":"/images/events/R.jpeg",
+                "content":"Acquisition of Over 2,000 Delivery Trucks in April."
+            },
+            {
+                "img":"/images/events/scania-bus.jpg",
+                "content":"10% Discount on all Travels in the Month of July to celebrate the launch."
+            },
+            {
+                "img":"/images/events/busrenting.jpeg",
+                "content":"Bus Rentals Launches on July 1st!"
+            },
+            {
+                "img":"/images/events/conference.png",
+                "content":"Transport Conference scheduled for May 28th in Abuja, Host: AMOS Transports."
+            }
+        ]
+    },
+    "gallery":{
+        "title": "gallery",
+        "slideshow":[
+            {
+                "img":"/images/slideshow/award.jpeg",
+                "content":"Acquisition of Over 2,000 Delivery Trucks in April."
+            },
+            {
+                "img":"/images/slideshow/busrentalfleet.jpg",
+                "content":"10% Discount on all Travels in the Month of July to celebrate the launch."
+            },
+            {
+                "img":"/images/slideshow/BusTerminal.jpg",
+                "content":"Bus Rentals Launches on July 1st!"
+            },
+            {
+                "img":"/images/slideshow/hq.jpg",
+                "content":"Transport Conference scheduled for May 28th in Abuja, Host: AMOS Transports."
+            },
+            {
+                "img":"/images/slideshow/internationalbusstation.jpg",
+                "content":"Transport Conference scheduled for May 28th in Abuja, Host: AMOS Transports."
+            },
+            {
+                "img":"/images/slideshow/tour.jpg",
+                "content":"Transport Conference scheduled for May 28th in Abuja, Host: AMOS Transports."
+            }
+        ],
+        "sub":[
+            {
+                "img":"/images/executives/CEO.webp",
+                "content":"CEO"
+            },
+            {
+                "img":"/images/executives/vice.webp",
+                "content":"Asst. CEO"
+            },
+            {
+                "img":"/images/executives/ED.jpg",
+                "content":"Executive Director"
+            },
+            {
+                "img":"/images/executives/MD.jpg",
+                "content":"Managing Director"
+            }
+        ]
+    }
+}

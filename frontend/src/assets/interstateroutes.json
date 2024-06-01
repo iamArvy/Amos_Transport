@@ -1,0 +1,177 @@
+{
+    "data":[
+        {
+            "route": "Abia to Lagos",
+            "time": "9:00am",
+            "price": 5500,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Abia to Lagos",
+            "time": "11:00am",
+            "price": 8000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Abia to Abuja",
+            "time": "12:00pm",
+            "price": 10000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        },
+        {
+            "route": "Abia to Lagos",
+            "time": "9:00am",
+            "price": 5500,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Abia to Lagos",
+            "time": "11:00am",
+            "price": 8000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Abia to Abuja",
+            "time": "12:00pm",
+            "price": 10000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        }, {
+            "route": "Abia to Lagos",
+            "time": "9:00am",
+            "price": 5500,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Abia to Lagos",
+            "time": "11:00am",
+            "price": 8000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Abia to Abuja",
+            "time": "12:00pm",
+            "price": 10000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        }
+    ]
+}

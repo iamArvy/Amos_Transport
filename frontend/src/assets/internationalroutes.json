@@ -1,0 +1,178 @@
+{
+    "data":[
+        {
+            "route": "Nigeria to Ghana",
+            "time": "9:00am",
+            "price": 10000,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Nigeria to Ghana",
+            "time": "11:00am",
+            "price": 14000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Nigeria to South-Africa",
+            "time": "12:00pm",
+            "price": 20000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        },
+        {
+            "route": "Nigeria to Ghana",
+            "time": "9:00am",
+            "price": 10000,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Nigeria to Ghana",
+            "time": "11:00am",
+            "price": 14000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Nigeria to South-Africa",
+            "time": "12:00pm",
+            "price": 20000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        },
+        {
+            "route": "Nigeria to Ghana",
+            "time": "9:00am",
+            "price": 10000,
+            "pnum": 1,
+            "image": "/images/busses/busone.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "TV behind driver seat"
+                }
+            ]
+        },
+        {
+            "route": "Nigeria to Ghana",
+            "time": "11:00am",
+            "price": 14000,
+            "pnum": 2,
+            "image": "/images/busses/bustwo.jpg",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                }
+            ]
+
+        },
+        {
+            "route": "Nigeria to South-Africa",
+            "time": "12:00pm",
+            "price": 20000,
+            "pnum": 3,
+            "image": "/images/busses/busthree.png",
+            "perks":[
+                {
+                    "value":"Air Conditioning"
+                },
+                {
+                    "value": "Tinted windows"
+                },
+                {
+                    "value": "Charging ports"
+                },
+                {
+                    "value": "Adjustable seats"
+                },
+                {
+                    "value": "Mini TV with earplugs"
+                }
+            ]
+        }
+    ]
+}
