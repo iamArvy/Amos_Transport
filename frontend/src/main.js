@@ -5,8 +5,8 @@ import routes from './routes';
 import App from './App.vue'
 import '@fortawesome/fontawesome-free/css/all.css'
 const router = createRouter({
-    history: createWebHistory(),
-    base: process.env.NODE_ENV === 'production' ? '/amostransports/' : '/',
+  history: createWebHistory('/your-github-repo/'),
+  // base: process.env.NODE_ENV === 'production' ? '/amostransports/' : '/',
     routes,
   });
   router.beforeEach((to, from, next) => {
