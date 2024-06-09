@@ -21,4 +21,14 @@ h2{
     text-align: center;
     color: var(--secondary);
 }
+@media (max-width: 768px) {
+    section{
+        margin: 5rem 0;
+    }
+}
+@media (max-width: 465px) {
+    section{
+        margin: 3rem 0;
+    }
+}
 </style>
