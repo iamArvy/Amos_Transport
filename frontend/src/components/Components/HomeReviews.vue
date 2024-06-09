@@ -1,11 +1,12 @@
 <script setup>
     import Review from '@/components/Components/HomeReviewsItem.vue'
+    import Layout from '@/components/Layout/SectionLayout.vue'
 </script>
 <template>
-    <section>
-      <h1>Top Reviews</h1>
-      <h2>See what our customers are saying</h2>
-      <div class="reviews">
+  <Layout>
+    <template #header>Top Reviews</template>
+    <template #desc>See what our customers are saying</template>
+    <div class="reviews">
         <Review customer="Adedire" img="/images/testimonials/dire.jpg">
             I received a package today from Amos Transports and was very happy with the service. It took less than 4 days from Ghana to Lagos, Nigeria and the quality of packaging (important for this destination) was exceptional. Well done 'Bob'!
         </Review>
@@ -16,7 +17,7 @@
             Took a tour around Abeokuta some weeks ago, it was a nice event, well spaced and educatoinal, I'm really looking forward to another tour Event from you guys.
         </Review>
       </div>
-    </section>
+  </Layout>
 </template>
 <style scoped>
 
@@ -39,8 +40,8 @@
 }
 @media (max-width: 850px) {
     .reviews{
-        /* grid-template-columns: 1fr; */
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        /* flex-direction: column; */
     }
 }
 @media(max-width: 400px){

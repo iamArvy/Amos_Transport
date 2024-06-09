@@ -11,6 +11,7 @@ figure{
     border-radius: 10px;
     overflow: hidden;
     width: 350px;
+    color: white;
 }
 figure:hover{
     width: 450px;

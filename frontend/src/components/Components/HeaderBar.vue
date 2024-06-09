@@ -16,6 +16,7 @@
   <header>
     <div class="content">
       <img src="@/assets/logo.png" alt="" class="logo" style="width: 100px;">
+      <span class="hamb"><i class='bx bx-menu'></i></span>
       <nav>
         <ul>
           <li> <router-link to="/" class="mynavs" active-class="activity"><button>Home</button></router-link></li>
@@ -31,9 +32,13 @@
 header{
   position: fixed;
   top: 0;
-  min-height: 100px;
+  min-height: var(--headerheight);
   background-color: var(--primary);
   z-index: 999;
+}
+.hamb{
+  font-size: 30px;
+  display: none;
 }
 .content{
   padding: 0 20px;
@@ -63,5 +68,14 @@ nav button:hover{
 }
 .activity>button{
   background-color: var(--secondary)
+}
+@media (max-width: 1023px) {
+  nav{
+    display: none;
+  }
+  .hamb{
+    display: block;
+    color: white;
+  }
 }
 </style>

@@ -32,16 +32,17 @@ section{
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  min-height: 70dvh;
+  height: 70dvh;
+  height: 600px;
   gap: 15px;
 }
 h1{
   font-size: 28px;
-  max-width: 25%;
+  max-width: 200px;
   font-weight: 600;
 }
 p{
-  max-width: 20%;
+  max-width: 180px;
   font-size: 12px;
 }
 button{
@@ -50,5 +51,18 @@ button{
   padding: 10px 2rem;
   border: none;
   border-radius: 10px;
+}
+@media (max-width: 1023px) {
+  section{
+    align-items: center;
+    padding: unset;
+    text-align: center;
+  }
+  h1{
+    max-width: 400px;
+  }
+  p{
+    max-width: 300px;
+  }
 }
 </style>

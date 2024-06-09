@@ -1,8 +1,15 @@
+<script setup>
+import Layout from '@/components/Layout/SectionLayout.vue'
+</script>
 <template>
-    <section class="how">
-      <h1>4 Steps to booking a Ride</h1>
-      <h2>Follow these four simple steps to book a ride</h2>
-      <ul>
+  <Layout id="how">
+    <template #header>
+      4 Steps to booking a Ride
+    </template>
+    <template #desc>
+      Follow these four simple steps to book a ride
+    </template>
+    <ul>
         <li number="1">
           <h3>Select your route</h3>
           <p>Select the route that suits your needs.</p>
@@ -20,7 +27,7 @@
           <p>Submit your transaction ID at the counter of the bus station and you will be directed to your bus.</p>
         </li>
       </ul>
-    </section>
+  </Layout>
 </template>
 <style scoped>
 section{
@@ -40,8 +47,11 @@ h2{
     color: var(--secondary);
 }
 ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
   margin-top: 3rem;
 }
@@ -49,6 +59,9 @@ li{
   padding: 2rem;
   background: var(--primary);
   position: relative;
+  width: calc(25% - 10px);
+  color: white;
+  min-width: 170px;
 }
 li::before{
   display: flex;
@@ -62,12 +75,39 @@ li::before{
   position: absolute;
   top: -20px;
   left: 40%;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
+  background-color: white;
+  color: var(--primary);
+  font-weight: 600;
 }
 h3{
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 600;
+
 }
 p{
-  font-size: 10px;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  li{
+    width: calc(50% - 10px);
+  }
+  li::before{
+    left: 43%;
+  }
+}
+@media (max-width: 425px) {
+  ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  li{
+    width: calc(100% - 10px);
+    max-width: 300px;
+    min-height: 130px;
+  }
+  li::before{
+    left: 45%;
+  }
 }
 </style>

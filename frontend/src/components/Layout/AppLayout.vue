@@ -33,18 +33,19 @@ section>h2{
 }
 
 :root {
+    --headerheight: 60px;
     --gradient: linear-gradient( to right,
     var(--secondary),
         var(--primary)
     );
-        
+    --padding-inline: 3rem;
     }
     main{
-        margin-top: 120px;
+        margin-top: var(--headerheight);
         color: var(--text);
+        padding: 2rem 0;
     }
     main, .full-width{
-        --padding-inline: 3rem;
         --content-max-width: 1128px;
         display: grid;
         grid-template-columns:[full-width-start] minmax(var(--padding-inline), 1fr)[content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width)) [content-end] minmax(var(--padding-inline), 1fr) [full-width-end];
@@ -58,5 +59,10 @@ section>h2{
         grid-column: full-width;
         display: grid;        
         grid-template-columns: inherit;
+    }
+    @media (max-width: 1023px) {
+        :root{
+            --padding-inline: 1rem;
+        }
     }
 </style>
