@@ -7,7 +7,7 @@
 </template>
 <style scoped>
 section{
-    margin: 7rem 0;
+    margin: 5rem 0;
 }
 h1{
     font-size: 20px;
@@ -23,12 +23,12 @@ h2{
 }
 @media (max-width: 768px) {
     section{
-        margin: 5rem 0;
+        margin: 3rem 0;
     }
 }
 @media (max-width: 465px) {
     section{
-        margin: 3rem 0;
+        margin: 2rem 0;
     }
 }
 </style>

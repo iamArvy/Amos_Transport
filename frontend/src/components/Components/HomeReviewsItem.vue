@@ -43,13 +43,13 @@ figcaption{
   color: var(--text);
 
 }
-@media (max-width: 400px) {
+@media (max-width: 465px) {
   img{
     width: 80px;
     height: 80px;
   }
   figcaption{
-    font-size: 18px;
+    font-size: 14px;
   }
   p{
     font-size: 10px;

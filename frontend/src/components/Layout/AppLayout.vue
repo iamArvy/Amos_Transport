@@ -19,18 +19,12 @@ defineProps({
     <FooterBar />
 </template>
 <style>
-section:not(:first-child)>h1{
+/* section:not(:first-child)>h1{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
     color: var(--primary);
-}
-section>h2{
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: var(--secondary);
-}
+} */
 
 :root {
     --headerheight: 60px;

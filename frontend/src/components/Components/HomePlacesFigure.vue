@@ -12,6 +12,7 @@ figure{
     overflow: hidden;
     width: 350px;
     color: white;
+    transition: ease-in-out 0.5s;
 }
 figure:hover{
     width: 450px;
@@ -30,5 +31,23 @@ figcaption{
     position: absolute;
     bottom: 0;
     z-index: 2;
+}
+@media (max-width: 768px) {
+    figure{
+        width: 100%;
+        border-radius: unset;
+    }
+    figure:hover{
+        width: unset;
+        overflow: hidden;
+    }
+    figcaption{
+        font-size: 12px;
+    }
+    figure:hover img{
+        width: calc(100% + 20px);
+        height: 120%;
+    }
+
 }
 </style>

@@ -43,7 +43,7 @@ h1{
 }
 p{
   max-width: 180px;
-  font-size: 12px;
+  font-size: 16px;
 }
 button{
   background: var(--accent);
