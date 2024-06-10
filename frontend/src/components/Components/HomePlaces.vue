@@ -26,13 +26,8 @@ ul{
 }
 @media (max-width: 768px) {
     ul{
-        /* flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* grid-row */
-    }
-    li{
-        /* width: calc(50%-10px); */
     }
 }
 </style>

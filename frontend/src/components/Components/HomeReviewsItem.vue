@@ -41,7 +41,7 @@ img {
 }
 figcaption{
   color: var(--text);
-
+  font-weight: 500;
 }
 @media (max-width: 465px) {
   img{
@@ -49,10 +49,10 @@ figcaption{
     height: 80px;
   }
   figcaption{
-    font-size: 14px;
+    font-size: 16px;
   }
   p{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 </style>

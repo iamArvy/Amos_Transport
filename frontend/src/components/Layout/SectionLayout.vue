@@ -12,7 +12,7 @@ section{
 h1{
     font-size: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--primary);
 }
 h2{

@@ -39,7 +39,7 @@ section{
 h1{
   font-size: 28px;
   max-width: 200px;
-  font-weight: 600;
+  font-weight: 800;
 }
 p{
   max-width: 180px;

@@ -30,10 +30,7 @@ import Layout from '@/components/Layout/SectionLayout.vue'
   </Layout>
 </template>
 <style scoped>
-section{
-  text-align: center;
-  margin: 7rem 0;
-}
+
 h1{
     font-size: 20px;
     text-align: center;
@@ -62,6 +59,7 @@ li{
   width: calc(25% - 10px);
   color: white;
   min-width: 170px;
+  text-align: center;
 }
 li::before{
   display: flex;
