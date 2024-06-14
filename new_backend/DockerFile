@@ -1,0 +1,30 @@
+# Use the official PHP base image
+FROM php:7.4-fpm
+
+# Set working directory
+WORKDIR /var/www/html
+
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y \
+        git \
+        unzip \
+        libzip-dev && \
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+    docker-php-ext-install pdo_mysql zip
+
+# Copy Laravel files
+COPY . .
+
+# Install Laravel dependencies
+RUN composer install --no-dev --optimize-autoloader
+
+# Set permissions
+RUN chown -R www-data:www-data /var/www/html && \
+    chmod -R 775 /var/www/html/storage
+
+# Expose port
+EXPOSE 8000
+
+# Command to run the Laravel app
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
